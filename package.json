@@ -1,0 +1,24 @@
+{
+  "name": "authorization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node --transpile-only index.ts",
+    "init": "tsc --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.0.2",
+    "graphql-subscriptions": "^1.2.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.1.0",
+    "type-graphql": "^1.1.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.60",
+    "tslib": "^2.3.0"
+  }
+}
